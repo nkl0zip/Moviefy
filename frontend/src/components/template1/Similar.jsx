@@ -35,15 +35,18 @@ const SimilarSection = styled.section`
     url(${(props) => props.background});
   color: white;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   padding: 50px 5%;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+
+  @media (max-width: 768px) {
+    height: auto;
+    padding: 30px 3%;
+  }
 `;
 
 const Container = styled.div`
@@ -51,8 +54,16 @@ const Container = styled.div`
   flex-direction: row;
   justify-content: center;
   gap: 2vh;
-  margin-top: 20vh;
-  margin-left: 10vh;
+  margin-top: 10vh;
+  margin-left: 5vh;
+  flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 5vh;
+  }
 `;
 
 const LeftCont = styled.div`
@@ -60,36 +71,56 @@ const LeftCont = styled.div`
   flex-direction: column;
   cursor: pointer;
   gap: 2vh;
+
+  @media (max-width: 768px) {
+    align-items: center;
+  }
 `;
 const RightCont = styled.div`
   display: flex;
   flex-direction: column;
   cursor: pointer;
   gap: 2vh;
+
+  @media (max-width: 768px) {
+    align-items: center;
+  }
 `;
 
 const UpImg = styled.img`
   height: 45%;
+  max-width: 100%;
+  object-fit: cover;
 `;
 const DownImg = styled.img`
   height: 45%;
+  max-width: 100%;
+  object-fit: cover;
 `;
 
 const BigImg = styled.img`
   height: 45%;
   width: 85%;
+  max-width: 100%;
+  object-fit: cover;
 `;
 
 const DownCont = styled.div`
   display: flex;
   flex-direction: row;
   gap: 2vh;
+  flex-wrap: wrap;
+  justify-content: center;
 `;
 
 const LeftImg = styled.img`
   height: 90%;
+  max-width: 100%;
+  object-fit: cover;
 `;
 
 const RightImg = styled.img`
   height: 90%;
+  max-width: 100%;
+  object-fit: cover;
 `;

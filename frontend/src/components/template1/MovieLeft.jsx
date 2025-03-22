@@ -57,6 +57,7 @@ const MainContainer = styled.main`
     url(${(props) => props.background});
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 `;
 
 const Section = styled.section`
@@ -74,12 +75,19 @@ const Container = styled.div`
   position: relative;
   height: 100%;
   align-items: flex-end;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 `;
 
 const Details = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 15vh;
+
   margin-top: 8vh;
   width: 60%;
   position: relative;
@@ -88,7 +96,6 @@ const Details = styled.div`
   @media (max-width: 768px) {
     justify-content: center;
     margin-bottom: 10vh;
-    margin-left: 10vh;
   }
 `;
 
@@ -100,7 +107,7 @@ const TitleImage = styled.img`
 
   @media (max-width: 768px) {
     height: 30vh;
-    width: 50vh;
+    width: 100%;
   }
 `;
 
@@ -112,8 +119,11 @@ const Description = styled.div`
   margin-bottom: 10vh;
 
   @media (max-width: 768px) {
-    font-size: 4vw;
-    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1rem;
   }
 `;
 
@@ -132,10 +142,12 @@ const Character = styled.img`
 
   @media (max-width: 768px) {
     height: 70vh;
+    margin-top: 30vh;
   }
 
   @media (max-width: 480px) {
     height: 60vh;
+    margin-top: 40vh;
   }
 `;
 
@@ -150,16 +162,20 @@ const Watch = styled.div`
   cursor: pointer;
   text-decoration: none;
 
-  &: hover {
+  &:hover {
     opacity: 0.7;
   }
 
   @media (max-width: 768px) {
-    margin-bottom: 1vh;
+    justify-content: center;
   }
 `;
 
 const Platform = styled.img`
   height: 6vh;
   margin-right: 2vh;
+
+  @media (max-width: 480px) {
+    height: 4vh;
+  }
 `;
