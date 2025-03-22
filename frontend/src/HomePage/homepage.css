@@ -1,0 +1,45 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.home-page
+{
+    height: 100vh;
+}
+.navbar-body
+{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 30px 0 0px 30px ;
+}
+.navbar-logo
+{
+    left: 50px;
+    font-size: 50px;
+    color: aliceblue;
+}
+.navbar-options
+{
+    position: absolute;
+    width: 500px;
+    display: flex;
+    color: #7b7979;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    left: 33%;
+   
+}
+.navbar-options .option
+{
+    background-color: #231712;
+    width: fit-content;
+    border-radius: 15px;
+    padding: 0px 20px;
+}

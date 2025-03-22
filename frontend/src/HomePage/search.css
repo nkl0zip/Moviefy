@@ -1,0 +1,34 @@
+.search-body {
+  background-image: url(C:\Users\ACER\.vscode\Moviefy\frontend\src\images\searchimage.png);
+  background-position: center;
+  background-size: cover;
+  background-color: #4f3031;
+  padding: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.search-body p {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  color: #d1d1d1;
+}
+.search-container {
+  margin-top: 50px;
+  position: relative;
+  height: 200px;
+  width: 400px;
+}
+
+.search-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #434343;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: rgb(7, 7, 7);
+}

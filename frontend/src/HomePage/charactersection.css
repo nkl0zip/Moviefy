@@ -1,0 +1,52 @@
+.character-section-body {
+  overflow: hidden;
+  position: relative;
+  background-color: #231712;
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  /* flex-wrap: wrap; */
+}
+.character-section-body img:hover {
+  transform: perspective(150px) translateZ(25px);
+  transition: transform 330ms ease-in-out;
+}
+.deadpool-image {
+  bottom: 0;
+  left: 5%;
+  width: 50vh;
+  height: 300px;
+  opacity: 0.6;
+}
+.squidgame-image {
+  bottom: 0;
+  left: 45%;
+  width: 37vh;
+  height: 450px;
+  opacity: 0.6;
+}
+.truedetective-image {
+  bottom: 0;
+  right: 5%;
+  width: 40vh;
+  height: 350px;
+  opacity: 0.6;
+}
+
+.fury-image {
+  bottom: 0;
+  left: 45%;
+  width: 37vh;
+  height: 350px;
+  opacity: 0.6;
+}
+.bb-image {
+  bottom: 0;
+  right: 5%;
+  width: 40vh;
+  height: 350px;
+  opacity: 0.6;
+}

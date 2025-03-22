@@ -1,0 +1,66 @@
+.home-page-body-deadpool
+{
+    background-image: url(/src/images/deadpoolbackground.png);
+    background-position: center;
+    background-size: cover;
+    overflow-y: hidden;
+    min-height:100vh;
+    padding-top: 170px;
+}
+/* .navbar-logo
+{
+    top: 50px;
+    left: 50px;
+} */
+.character-title
+{
+    position: relative;
+    /* z-index: 1; */
+    bottom: 0;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+}
+.character-title .character
+{
+    position: relative;
+    min-height: 84.15vh;
+    /* top: 100px; */
+}
+.character-title .title
+{
+    bottom: 30px;
+    width: 50%;
+    position: absolute;
+}
+.text-message-first
+{
+    position:absolute;
+    color: #838383;
+    font-size: 35px;
+    width: 30%;
+    top: 35%;
+    left: 30px;
+    font-weight: 1000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1px #AAAAAA;
+    text-align: center;
+}
+.text-message-second
+{
+    position:absolute;
+    color: #838383;
+    font-size: 35px;
+    width: 30%;
+    top: 35%;
+    right: 30px;
+    left: 70%;
+    font-weight: 1000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1px #AAAAAA;
+    text-align: center;
+}
+span
+{
+    color: #B80000;
+}
