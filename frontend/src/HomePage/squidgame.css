@@ -1,14 +1,5 @@
 .home-page-body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(C:\Users\ACER\.vscode\Moviefy\frontend\src\images\template1\background1.png);
-  background-position: center;
-  background-size: cover;
   overflow-y: hidden;
-  min-height: 100vh;
-  padding-top: 170px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
 }
 
 .character-title {
